@@ -1,0 +1,9 @@
+# to print area of circle
+r=float(input("Input radius of the circle"))
+area= 3.14*(r)**2
+print("The area of circle with radius"+ str(r) +"is:" + str(area))
+
+#to print extension of file
+filename = input("Input the Filename: ")
+extns = filename.split(".")
+print ("The extension of the file is:" + extns[-1])
